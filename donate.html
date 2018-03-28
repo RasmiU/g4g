@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#FFE4B5">
+
+<h2><font size="10"><font color="red">DONOR REGISTRATION</font></font></h2>
+<p><font color="green">**Make sure that all the informations you enter are correct to the best of your knowledge**</font></p>
+<form action="action_page.php" method ="POST">
+  First name:<br>
+  <input type="text" name="firstname" value="" placeholder="Enter firstname *">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" placeholder="Enter lastName *" value="">
+  <br>
+Gender:<br>
+
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+ Blood Group:<br>
+ <select style="width:100px;" tabindex="10" class="smalltxt textbox" name="bloodgroup" size="1" tabindex="20">
+							<option value="">Select
+<option value="B+" > B+			<option value="B-" > B-					<option value="AB+" > AB+			<option value="AB-" > AB-			<option value="O+" > O+			<option value="O-" > O-			<option value="A+" > A+			<option value="A-" > A-							</select>
+<br>
+ Department:<br>
+ <select style="width:100px;" tabindex="10" class="smalltxt textbox" name="department" size="1" tabindex="20">
+							<option value="">Select
+<option value="CSE" > CSE			<option value="ECE" > ECE					<option value="IT" > IT			<option value="EEE" > EEE			<option value="ME" > ME			</select>
+<br>
+Age:<br>
+<select style="width:100px;" tabindex="10" class="smalltxt textbox" name="age" size="1" tabindex="20">
+							<option value="">Between
+<option value="17-25" >17-25 		<option value="26-34" > 26-34					<option value="35-42" >35-42			<option value="43-51" > 43-51			<option value="52-66" > 52-66			</select>
+<br>
+weight:<br>
+<select style="width:100px;" tabindex="10" class="smalltxt textbox" name="weight" size="1" tabindex="20">
+							<option value="">Between
+<option value="50-65" >50-65		<option value="65-80" > 65-80					<option value="80-95" >80-95			<option value="95-110" > 95-110			<option value="110-130" > 110-130		<option value="130-160">130-160	</select>
+<br>
+Phone Number:<br>
+<input type="text" name="phonenumber" value="" placeholder= "Enter phone number *">
+<br>
+Mail ID:<br>
+<input type="text" name="mailid" value="" placeholder="Enter mail id *">
+<br>
+
+
+  <input type="submit" value="SUBMIT">
+</form> 
+
+</body>
+</html>
